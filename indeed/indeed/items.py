@@ -8,7 +8,7 @@
 import scrapy
 
 
-class IndeedItem(scrapy.Item):
+class IndeedProfile(scrapy.Item):
     # define the fields for your item here like:
     # name = scrapy.Field()
     rank = scrapy.Field()
@@ -19,5 +19,13 @@ class IndeedItem(scrapy.Item):
     management = scrapy.Field()
     culture = scrapy.Field()
     industry = scrapy.Field()
-    review = scrapy.Field()
 
+class IndeedReview(scrapy.Item):
+    company = scrapy.Field()
+    header = scrapy.Field()
+    jobtitle = scrapy.Field()
+    location = scrapy.Field()
+    date = scrapy.Field()
+    comment = scrapy.Field()
+    pro = scrapy.Field()
+    con = scrapy.Field()

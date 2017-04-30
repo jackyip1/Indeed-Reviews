@@ -1,8 +1,8 @@
 import scrapy
-from indeed.items import IndeedItem
+from indeed.items import IndeedProfile
 
 class IndeedSpider(scrapy.Spider):
-	name = 'indeed'
+	name = 'indeed_profile'
 	allowed_urls = ['https://www.indeed.com/']
 	start_urls = ['https://www.indeed.com/Best-Places-to-Work?y=2016&cc=US&start=',
 	'https://www.indeed.com/Best-Places-to-Work?y=2016&cc=US&start=25']
@@ -73,46 +73,68 @@ class IndeedSpider(scrapy.Spider):
 		reviewparturl = response.xpath('//div[@id="cmp-menu-container"]/ul/li[2]/a/@href').extract_first()
 		reviewfullurl = "https://www.indeed.com" + reviewparturl
 
-		yield scrapy.Request(reviewfullurl, callback = self.parse_employer_review,
-			meta = {'rank':rank,
-			'company': company,
-			'overall': overall,
-			'worklife': worklife,
-			'compensation': compensation,
-			'security': security,
-			'management': management,
-			'culture': culture,
-			'industry': industry})
+		# populate items
+		item = IndeedProfile()
+		item['rank'] = rank
+		item['company'] = company
+		item['worklife'] = worklife
+		item['compensation'] = compensation
+		item['security'] = security
+		item['management'] = management
+		item['culture'] = culture
+		item['industry'] = industry
 
-	def parse_employer_review(self, response):
-		# populate employer profile
-		rank = response.meta['rank']
-		company = response.meta['company']
-		overall = response.meta['overall']
-		worklife = response.meta['worklife']
-		compensation = response.meta['compensation']
-		security = response.meta['security']
-		management = response.meta['management']
-		culture = response.meta['culture']
-		industry = response.meta['industry']
+		yield item
 
+	# 	index = 0
+	# 	while index < 10000:
+	# 		try:
+	# 			reviewfullurl_each = reviewfullurl + '?start=' + str(index)
+	# 			index = index + 20
+	# 			print reviewfullurl_each
 
-		# get reviews
-		reviews = response.xpath('//div[@class="cmp-review-container"]')
-		for review in reviews:
-			review = review.xpath('.//div[1]/div[3]/div/span/text()').extract()
-			review = self.verify(review)
+	# 			yield scrapy.Request(reviewfullurl_each, callback = self.parse_employer_review,
+	# 				meta = {'rank':rank,
+	# 				'company': company,
+	# 				'overall': overall,
+	# 				'worklife': worklife,
+	# 				'compensation': compensation,
+	# 				'security': security,
+	# 				'management': management,
+	# 				'culture': culture,
+	# 				'industry': industry})
 
-			# populate items
-			item = IndeedItem()
-			item['rank'] = rank
-			item['company'] = company
-			item['worklife'] = worklife
-			item['compensation'] = compensation
-			item['security'] = security
-			item['management'] = management
-			item['culture'] = culture
-			item['industry'] = industry
-			item['review'] = review												
-			yield item
+	# 		except:
+	# 			pass
+
+	# def parse_employer_review(self, response):
+	# 	# populate employer profile
+	# 	rank = response.meta['rank']
+	# 	company = response.meta['company']
+	# 	overall = response.meta['overall']
+	# 	worklife = response.meta['worklife']
+	# 	compensation = response.meta['compensation']
+	# 	security = response.meta['security']
+	# 	management = response.meta['management']
+	# 	culture = response.meta['culture']
+	# 	industry = response.meta['industry']
+
+	# 	# get reviews
+	# 	reviews = response.xpath('//div[@class="cmp-review-container"]')
+	# 	for review in reviews:
+	# 		review = review.xpath('.//div[1]/div[3]/div/span/text()').extract()
+	# 		review = self.verify(review)
+
+	# 		# populate items
+	# 		item = IndeedItem()
+	# 		item['rank'] = rank
+	# 		item['company'] = company
+	# 		item['worklife'] = worklife
+	# 		item['compensation'] = compensation
+	# 		item['security'] = security
+	# 		item['management'] = management
+	# 		item['culture'] = culture
+	# 		item['industry'] = industry
+	# 		item['review'] = review												
+	# 		yield item
 
