@@ -77,6 +77,7 @@ class IndeedSpider(scrapy.Spider):
 		item = IndeedProfile()
 		item['rank'] = rank
 		item['company'] = company
+		item['overall'] = overall
 		item['worklife'] = worklife
 		item['compensation'] = compensation
 		item['security'] = security

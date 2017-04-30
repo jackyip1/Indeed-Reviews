@@ -1,0 +1,246 @@
+category,position,company,salarytype,salary
+Food Preparation and Service,Kitchen Team Member,Chick-fil-A,per year,19558.5
+Retail,Cashier,Chick-fil-A,per year,16809
+Management,Team Leader,Chick-fil-A,per year,19227
+Customer Service,Customer Service Representative,Chick-fil-A,per year,17998.5
+Office and Administrative,Certified Trainer,Chick-fil-A,per year,18642
+Food Preparation and Service,Host/Hostess,Walt Disney Parks and Resorts,per year,15970.5
+Arts Entertainment Design and Media,Actor,Walt Disney Parks and Resorts,per year,18310.5
+Retail,Merchandiser,Walt Disney Parks and Resorts,per year,17881.5
+Customer Service,Guest Service Agent,Walt Disney Parks and Resorts,per year,21274.5
+Management,Manager,Walt Disney Parks and Resorts,per year,20806.5
+Technology,R&D Engineer,Abbott Laboratories,per year,75333
+Sales,Sales Representative,Abbott Laboratories,per year,79782
+Business and Finance,Senior Systems Analyst,Abbott Laboratories,per year,89098
+Office and Administrative,Administrative Assistant,Abbott Laboratories,per year,47073
+Production and Manufacturing,Assembler,Abbott Laboratories,per year,30392
+Customer Service,Front Desk Agent,"Marriott International, Inc.",per year,20085
+Food Preparation and Service,Night Auditor,"Marriott International, Inc.",per year,21918
+Cleaning,Housekeeper,"Marriott International, Inc.",per year,18564
+Management,General Manager,"Marriott International, Inc.",per year,51296
+Office and Administrative,Front Desk Manager,"Marriott International, Inc.",per year,24355.5
+Nursing,Registered Nurse,Memorial Hermann,per year,70999.5
+Healthcare,Patient Access Manager,Memorial Hermann,per year,29425.5
+Medical Technician,Surgical Technician,Memorial Hermann,per year,43524
+Office and Administrative,Office Assistant,Memorial Hermann,per year,39287
+Management,Materials Manager,Memorial Hermann,per year,33746
+Technology,Senior Engineer,ConocoPhillips,per year,145290
+Research and Development,Geologist,ConocoPhillips,per year,134483
+Management,Supervisor,ConocoPhillips,per year,136362
+Accounting,Financial Analyst,ConocoPhillips,per year,85091
+Office and Administrative,Administrative Assistant,ConocoPhillips,per year,51450
+Software Development,Software Engineer,Intuit,per year,119516
+Business and Finance,Senior Data Analyst,Intuit,per year,119842
+Technology,Technical Support,Intuit,per year,35234
+Customer Service,Customer Service Representative,Intuit,per year,39013
+Accounting,Tax Analyst,Intuit,per year,65319
+Retail,Assistant Store Manager,Trader Joe's,per year,55062
+Loading and Stocking,Order Picker,Trader Joe's,per year,20787
+Management,Manager,Trader Joe's,per year,58429
+Other Popular Jobs,Crew Member,Trader Joe's,per year,24141
+Retail,Cashier,Chevron,per year,17647.5
+Management,Assistant Manager,Chevron,per year,29548
+Technology,Engineer,Chevron,per year,134410
+Customer Service,Customer Service Representative,Chevron,per year,19461
+Office and Administrative,Administrative Assistant,Chevron,per year,51292
+Customer Service,Customer Service Representative,JetBlue Airways Corporation,per year,25837.5
+Management,Operations Lead,JetBlue Airways Corporation,per year,42597
+Office and Administrative,Operations Associate,JetBlue Airways Corporation,per year,24472.5
+Software Development,Application Developer,JetBlue Airways Corporation,per year,103546
+Technology,Business Intelligence Developer,JetBlue Airways Corporation,per year,112236
+Nursing,Registered Nurse,NewYork-Presbyterian Hospital,per year,88330
+Medical Technician,Patient Care Technician,NewYork-Presbyterian Hospital,per year,52512
+Healthcare,Laboratory Assistant,NewYork-Presbyterian Hospital,per year,35737
+Office and Administrative,Administrative Assistant,NewYork-Presbyterian Hospital,per year,48067
+Sales,Financial Advisor,NewYork-Presbyterian Hospital,per year,43518
+Food Preparation and Service,Server,Texas Roadhouse,per year,22182
+Management,Service Manager,Texas Roadhouse,per year,40540
+Education and Instruction,Training Coordinator,Texas Roadhouse,per year,25346
+Sales,Marketer,Texas Roadhouse,per year,22756.5
+Office and Administrative,Expeditor,Texas Roadhouse,per year,20143.5
+Accounting,Tax Preparer,Jackson Hewitt,per year,22132.5
+Office and Administrative,Receptionist,Jackson Hewitt,per year,17823
+Customer Service,Customer Service Representative,Jackson Hewitt,per year,18583.5
+Management,Supervisor,Jackson Hewitt,per year,19773
+Callcenter,Call Center Representative,Jackson Hewitt,per year,19675.5
+Software Development,Software Engineer,Microsoft,per year,117574
+Business Operations,Program Manager,Microsoft,per year,119387
+Technology,Service Engineer,Microsoft,per year,122034
+Management,Solutions Manager,Microsoft,per year,114934
+Sales,Technical Account Manager,Microsoft,per year,100613
+Technology,System Engineer,Boeing,per year,95098
+Maintenance and Repair,Mechanic,Boeing,per year,52764
+Management,Team Leader,Boeing,per year,66627
+Business and Finance,Business Analyst,Boeing,per year,77312
+Production and Manufacturing,Assembler,Boeing,per year,48410
+Technology,Component Engineer,Intel,per year,106592
+Software Development,Software Engineer,Intel,per year,112357
+Research and Development,Electronics Engineer,Intel,per year,116702
+Business and Finance,Packaging Engineer,Intel,per year,111634
+Maintenance and Repair,Manufacturing Technician,Intel,per year,56074
+Food Preparation and Service,Server,Four Seasons,per year,46067
+Cleaning,Housekeeper,Four Seasons,per year,23458.5
+Nursing,Home Health Aide,Four Seasons,per year,17803.5
+Management,Supervisor,Four Seasons,per year,39900
+Customer Service,Guest Service Agent,Four Seasons,per year,25116
+Office and Administrative,Administrative Assistant,Johnson & Johnson,per year,55380
+Management,Planner/Scheduler II,Johnson & Johnson,per year,64584
+Sales,Sales Representative,Johnson & Johnson,per year,64547
+Technology,Technician,Johnson & Johnson,per year,32896.5
+Maintenance and Repair,Mechanic,Johnson & Johnson,per year,39097.5
+Food Preparation and Service,Barista,Starbucks,per year,18525
+Management,Shift Manager,Starbucks,per year,22483.5
+Retail,Store Manager,Starbucks,per year,45320
+Customer Service,Customer Service Representative,Starbucks,per year,19051.5
+Software Development,Senior Application Developer,Starbucks,per year,121817
+Realestate,Realtor,Coldwell Banker,per year,50373
+Office and Administrative,Administrative Assistant,Coldwell Banker,per year,42685.5
+Sales,Broker,Coldwell Banker,per year,55630
+Retail,Retail Sales Associate,Coldwell Banker,per year,49945
+Marketing,Marketing Coordinator,Coldwell Banker,per year,37181
+Retail,Retail Sales Associate,Spirit Halloween Super Store,per year,17413.5
+Management,Assistant Manager,Spirit Halloween Super Store,per year,21450
+Sales,Sales Representative,Spirit Halloween Super Store,per year,17920.5
+Other Popular Jobs,Customer Service Representative,Spirit Halloween Super Store,per year,17335.5
+Office and Administrative,Clerk,QuikTrip,per year,18837
+Management,Assistant Manager,QuikTrip,per year,38042
+Retail,Store Clerk,QuikTrip,per year,19051.5
+Maintenance and Repair,Equipment Technician,QuikTrip,per year,47697
+Food Preparation and Service,Night Manager,QuikTrip,per year,24141
+Customer Service,Customer Service Representative,Delta,per year,30621
+Loading and Stocking,Baggage Handler,Delta,per year,21274.5
+Aviation,Flight Attendant,Delta,per year,41504
+Security and Public Safety,Security Screener,Delta,per year,21469.5
+Management,Supervisor,Delta,per year,33282
+Retail,Cashier,Wegmans,per year,18759
+Customer Service,Customer Service Representative,Wegmans,per year,21450
+Food Preparation and Service,Food Preparation Worker,Wegmans,per year,19753.5
+Management,Team Leader,Wegmans,per year,31687.5
+Pharmacy,Pharmacy Technician,Wegmans,per year,21235.5
+Office and Administrative,Administrative Assistant,RE/MAX,per year,23419.5
+Realestate,Real Estate Manager,RE/MAX,per year,58469
+Sales,Realtor Associate,RE/MAX,per year,58693
+Customer Service,Front Desk Agent,RE/MAX,per year,23458.5
+Marketing,Marketing Assistant,RE/MAX,per year,24609
+Technology,Technical Support,Insight Global,per year,33540
+Customer Service,Customer Service Representative,Insight Global,per year,24375
+Software Development,Developer,Insight Global,per year,104685
+Human Resources,Recruiter,Insight Global,per year,30063
+Maintenance and Repair,Field Technician,Insight Global,per year,47173
+Sales,Mortgage Banker,Network Capital Funding Corporation,per year,70719
+Office and Administrative,Loan Processor,Network Capital Funding Corporation,per year,26169
+Customer Service,Front Desk Agent,Network Capital Funding Corporation,per year,21762
+Other Popular Jobs,Call Center Representative,Network Capital Funding Corporation,per year,19636.5
+Food Preparation and Service,Steward,The Ritz-Carlton,per year,43583
+Customer Service,Guest Service Agent,The Ritz-Carlton,per year,36811
+Office and Administrative,Scheduler,The Ritz-Carlton,per year,33910.5
+Hospitality and Tourism,Concierge,The Ritz-Carlton,per year,26793
+Cleaning,Housekeeper,The Ritz-Carlton,per year,23283
+Retail,Replenishment Associate,HEB,per year,22581
+Customer Service,Customer Service Representative,HEB,per year,18759
+Food Preparation and Service,Food Service Associate,HEB,per year,20767.5
+Sales,Sales Representative,HEB,per year,20728.5
+Maintenance and Repair,Maintenance Person,HEB,per year,20611.5
+Retail,Deli Associate,Publix,per year,19402.5
+Customer Service,Customer Service Representative,Publix,per year,19578
+Food Preparation and Service,Produce Clerk,Publix,per year,19831.5
+Office and Administrative,Service Clerk,Publix,per year,16848
+Loading and Stocking,Order Picker,Publix,per year,28899
+Arts Entertainment Design and Media,Actor,The Walt Disney Company,per year,25550
+Food Preparation and Service,Host/Hostess,The Walt Disney Company,per year,18915
+Retail,Retail Sales Associate,The Walt Disney Company,per year,18369
+Customer Service,Guest Service Agent,The Walt Disney Company,per year,22951.5
+Software Development,Senior Software Engineer,The Walt Disney Company,per year,120448
+Software Development,Software Engineer,Apple,per year,147637
+Technology,Hardware Engineer,Apple,per year,146849
+Management,Planner,Apple,per year,118458
+Arts Entertainment Design and Media,Designer,Apple,per year,134857
+Business and Finance,Systems Analyst,Apple,per year,118691
+Retail,Retail Sales Associate,NIKE,per year,19090.5
+Loading and Stocking,Picker/Packer,NIKE,per year,17979
+Software Development,Tester,NIKE,per day,315
+Management,Team Leader,NIKE,per year,26417
+Sales,Sales Representative,NIKE,per year,35149
+Office and Administrative,Administrative Intern,Kaiser Permanente,per year,30205.5
+Healthcare,Dental Assistant,Kaiser Permanente,per year,39351
+Nursing,Registered Nurse,Kaiser Permanente,per year,94419
+Management,Consultant,Kaiser Permanente,per year,90031
+Customer Service,Customer Service Representative,Kaiser Permanente,per year,41237
+Office and Administrative,Operations Intern,Southwest Airlines,per year,24960
+Arts Entertainment Design and Media,Communications Intern,Southwest Airlines,per year,23400
+Business and Finance,Business Intern,Southwest Airlines,per year,25701
+Management,Intern Manager,Southwest Airlines,per year,24199.5
+Customer Service,Customer Service Representative,Southwest Airlines,per year,37695
+Accounting,Tax Preparer,H&R Block,per year,20163
+Office and Administrative,Receptionist,H&R Block,per year,18583.5
+Customer Service,Customer Service Representative,H&R Block,per year,18681
+Sales,Client Services,H&R Block,per year,18213
+Retail,District Manager,H&R Block,per year,77215
+Retail,Front End Associate,Costco Wholesale,per year,23926.5
+Food Preparation and Service,Food Court Manager,Costco Wholesale,per year,23985
+Loading and Stocking,Stocker,Costco Wholesale,per year,23829
+Customer Service,Customer Service Representative,Costco Wholesale,per year,24843
+Sales,Sales Representative,Costco Wholesale,per year,26403
+Sales,Beauty Consultant,Mary Kay Inc,per year,30294
+Management,Consultant,Mary Kay Inc,per year,19241
+Office and Administrative,Office Assistant,Mary Kay Inc,per year,19266
+Accounting,Internal Auditor,Mary Kay Inc,per year,78673
+Other Popular Jobs,Material Handler,Mary Kay Inc,per year,21996
+Realestate,Real Estate Agent,Keller Williams Realty,per year,74733
+Office and Administrative,Administrative Assistant,Keller Williams Realty,per year,24940.5
+Sales,Telemarketer,Keller Williams Realty,per year,52065
+Retail,Buyer,Keller Williams Realty,per year,66265
+Management,Team Leader,Keller Williams Realty,per year,55705
+Retail,Retail Sales Associate,In-N-Out Burger,per year,23653.5
+Food Preparation and Service,Cook,In-N-Out Burger,per year,25701
+Management,Assistant Manager,In-N-Out Burger,per year,40116
+Cleaning,Cleaner,In-N-Out Burger,per year,22893
+Other Popular Jobs,Associate,In-N-Out Burger,per year,23673
+Nursing,Registered Nurse,Florida Hospital,per year,51787
+Healthcare,Health Unit Coordinator,Florida Hospital,per year,24930
+Medical Technician,Patient Care Technician,Florida Hospital,per year,23497.5
+Office and Administrative,Scheduler,Florida Hospital,per year,24784.5
+Management,Supervisor,Florida Hospital,per year,46813
+Research and Development,Scientist,Pfizer Inc.,per year,80216
+Management,Manager,Pfizer Inc.,per year,107538
+Maintenance and Repair,Operator,Pfizer Inc.,per year,49369
+Sales,Sales Representative,Pfizer Inc.,per year,70592
+Office and Administrative,Administrative Assistant,Pfizer Inc.,per year,53125
+Software Development,Software Engineer,American Express,per year,98438
+Business and Finance,Risk Manager,American Express,per year,105708
+Technology,Senior Engineer,American Express,per year,116085
+Customer Service,Customer Care Specialist,American Express,per year,40081
+Management,Team Leader,American Express,per year,55938
+Food Preparation and Service,Night Auditor,Marriott Vacations Worldwide,per year,21976.5
+Customer Service,Front Desk Agent,Marriott Vacations Worldwide,per year,19851
+Cleaning,Housekeeper,Marriott Vacations Worldwide,per year,18759
+Hospitality and Tourism,Room Attendant,Marriott Vacations Worldwide,per year,18369
+Business and Finance,Anti Money Laundering Analyst,Marriott Vacations Worldwide,per year,56550
+Retail,Retail Sales Associate,Build-A-Bear Workshop,per year,17121
+Management,Workshop Manager,Build-A-Bear Workshop,per year,45913
+Other Popular Jobs,Builder,Build-A-Bear Workshop,per year,16945.5
+Sales,Insurance Agent,Primerica,per year,50670
+Retail,District Leader,Primerica,per year,35537
+Customer Service,Customer Service Representative,Primerica,per year,39228
+Management,Regional Vice President,Primerica,per year,75413
+Office and Administrative,Office Manager,Primerica,per year,29846
+Customer Service,Customer Service Representative,Royal Caribbean Cruises Ltd.,per year,24862.5
+Management,Planner,Royal Caribbean Cruises Ltd.,per year,49370
+Food Preparation and Service,Bartender,Royal Caribbean Cruises Ltd.,per year,124332
+Sales,Sales Representative,Royal Caribbean Cruises Ltd.,per year,21976.5
+Technology,Engineer,Royal Caribbean Cruises Ltd.,per year,73940
+Research and Development,Research Fellow,Mayo Clinic,per year,48995
+Healthcare,Resident,Mayo Clinic,per year,58042
+Medical Doctor,Physician,Mayo Clinic,per year,251803
+Nursing,Registered Nurse,Mayo Clinic,per year,69985.5
+Technology,System Engineer,Mayo Clinic,per year,77433
+Healthcare,Patient Coordinator,Massachusetts General Hospital,per year,39269
+Community and Social Service,Resident Counselor,Massachusetts General Hospital,per year,26422.5
+Office and Administrative,Operations Associate,Massachusetts General Hospital,per year,32307
+Medical Technician,Mental Health Technician,Massachusetts General Hospital,per year,26578.5
+Nursing,Registered Nurse,Massachusetts General Hospital,per year,75699
+Software Development,Software Engineer,Google,per year,127413
+Technology,Hardware Engineer,Google,per year,130746
+Sales,Solutions Engineer,Google,per year,114788
+Business and Finance,Quantitative Analyst,Google,per year,127864
+Arts Entertainment Design and Media,User Interface Designer,Google,per year,122133

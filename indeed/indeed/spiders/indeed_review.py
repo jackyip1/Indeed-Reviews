@@ -39,16 +39,16 @@ class IndeedSpider(scrapy.Spider):
 		reviewparturl = response.xpath('//div[@id="cmp-menu-container"]/ul/li[2]/a/@href').extract_first()
 		reviewfullurl = "https://www.indeed.com" + reviewparturl
 
-		index = 9800
-		reviewfullurl_each = reviewfullurl + '?start=' + str(index)
-		response = requests.get(reviewfullurl_each)
-
-		if response.status_code // 100 == 2: 
+		index = 0
+		while index < 10000:
+			try:
+				reviewfullurl_each = reviewfullurl + '?start=' + str(index)
 				yield scrapy.Request(reviewfullurl_each, callback = self.parse_employer_review,
 					meta = {'company': company, 'dont_redirect': True})
 				index = index + 20
-		else:
-			pass
+			except:
+				pass
+
 
 	def parse_employer_review(self, response):
 		# populate employer profile
@@ -57,6 +57,8 @@ class IndeedSpider(scrapy.Spider):
 		# get reviews
 		reviews = response.xpath('//div[@class="cmp-review-container"]')
 		for review in reviews:
+			rating = review.xpath('.//div[1]/div[2]/div[1]/div/span/span/span/@title').extract()
+			rating = self.verify(rating)
 			header = review.xpath('.//div[1]/div[2]/div[2]/span[1]/text()').extract()
 			header = self.verify(header)
 			jobtitle = review.xpath('.//div[1]/div[2]/div[4]/span[1]/span/text()').extract()
@@ -74,6 +76,7 @@ class IndeedSpider(scrapy.Spider):
 
 			# populate items
 			item = IndeedReview()
+			item['rating'] = rating
 			item['company'] = company
 			item['header'] = header
 			item['jobtitle'] = jobtitle

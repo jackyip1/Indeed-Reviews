@@ -13,6 +13,7 @@ class IndeedProfile(scrapy.Item):
     # name = scrapy.Field()
     rank = scrapy.Field()
     company = scrapy.Field()
+    overall = scrapy.Field()
     worklife = scrapy.Field()
     compensation = scrapy.Field()
     security = scrapy.Field()
@@ -22,6 +23,7 @@ class IndeedProfile(scrapy.Item):
 
 class IndeedReview(scrapy.Item):
     company = scrapy.Field()
+    rating = scrapy.Field()
     header = scrapy.Field()
     jobtitle = scrapy.Field()
     location = scrapy.Field()
@@ -29,3 +31,11 @@ class IndeedReview(scrapy.Item):
     comment = scrapy.Field()
     pro = scrapy.Field()
     con = scrapy.Field()
+
+
+class IndeedSalary(scrapy.Item):
+    company = scrapy.Field()
+    category = scrapy.Field()
+    position = scrapy.Field()
+    salary = scrapy.Field()
+    salarytype = scrapy.Field()
