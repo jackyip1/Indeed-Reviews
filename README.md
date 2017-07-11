@@ -1,5 +1,6 @@
 # About this project
 * This case study attempts to examine employee reviews for corporate retailers that ranked in Indeed's 2016 Top 50 Corporate Employers list.
+* To learn more, please visit blogpost at https://blog.nycdatascience.com/student-works/retailers-heres-employees-saying-project-web-scraping-indeed-com/
 * This project accompanies the presentation that can be accessed on https://docs.google.com/presentation/d/1EwmUzCgtElRd1sPGijN7B_PRn6yyAaJycJvBDb77h1I/pub?start=false&loop=false&delayms=3000.
 
 # Folder Structure
